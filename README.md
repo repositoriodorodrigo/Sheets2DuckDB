@@ -1,12 +1,12 @@
 # Sheets2DuckDB
 
-## Google Sheets para DuckDB com Google Colab e Visualizações no Google Data Studio
+# Pipeline de Processamento de Dados do Google Sheets para DuckDB com Google Colab e Visualizações no Google Data Studio
 
-Este projeto demonstra um pipeline de processamento de dados que extrai informações de uma planilha do Google Sheets, utiliza o Google Colab para ingerir e transformar os dados com as bibliotecas gspread, pandas e pyduckdb, disponibiliza os dados transformados no DuckDB e cria visualizações interativas no Google Data Studio. Além disso, automatiza o processamento diário usando o Google Apps Script para acionar o pipeline.
+Este projeto demonstra um pipeline de processamento de dados que extrai informações de uma planilha do Google Sheets, utiliza o Google Colab para ingerir, transformar os dados com as bibliotecas gspread, pandas e pyduckdb, converte os dados em arquivos Parquet e armazena-os no Google Drive. Em seguida, esses dados são lidos pelo DuckDB para análises e, por fim, são criadas visualizações interativas no Google Data Studio. Além disso, o pipeline é automatizado com o Google Apps Script para acionar o processamento diário.
 
 ## Objetivo
 
-O objetivo deste projeto é criar um fluxo automatizado para processar, transformar e visualizar dados de uma planilha do Google Sheets, utilizando ferramentas do ecossistema Google e compartilhando os resultados por meio de visualizações interativas.
+O objetivo deste projeto é criar um fluxo automatizado para processar, transformar, armazenar e analisar dados de uma planilha do Google Sheets, utilizando ferramentas do ecossistema Google e compartilhando os resultados por meio de visualizações interativas.
 
 ## Fluxo do Pipeline
 
@@ -18,13 +18,17 @@ O objetivo deste projeto é criar um fluxo automatizado para processar, transfor
    - A biblioteca pandas é utilizada para a manipulação e limpeza dos dados.
    - A biblioteca pyduckdb é utilizada para interagir com o DuckDB e executar transformações SQL.
 
-3. **Armazenamento no DuckDB:**
-   - Os dados transformados são armazenados no DuckDB, um banco de dados otimizado para análises interativas.
+3. **Conversão para Parquet e Armazenamento no Google Drive:**
+   - Os dados transformados são convertidos em arquivos Parquet usando o pandas.
+   - O Google Drive é utilizado para armazenar os arquivos Parquet.
 
-4. **Criação de Visualizações com o Google Data Studio:**
+4. **Leitura pelo DuckDB:**
+   - O DuckDB se conecta aos arquivos Parquet no Google Drive para realizar consultas analíticas.
+
+5. **Criação de Visualizações com o Google Data Studio:**
    - O DuckDB é conectado ao Google Data Studio para criar visualizações interativas e painéis de análise.
 
-5. **Automação com Google Apps Script:**
+6. **Automação com Google Apps Script:**
    - O Google Apps Script é usado para agendar e acionar o pipeline de processamento diariamente, processando os dados de D-1.
 
 ## Configuração e Uso
@@ -40,10 +44,8 @@ O objetivo deste projeto é criar um fluxo automatizado para processar, transfor
    # Instale a biblioteca pyduckdb
    !pip install pyduckdb
 
-## Configuração e Uso
-
 1. **Execução do Notebook do Google Colab (`data_processing_pipeline.ipynb`):**
-   - Siga as instruções no notebook para autenticar-se com a API do Google Sheets e implementar as etapas de extração, transformação e armazenamento no DuckDB.
+   - Siga as instruções no notebook para autenticar-se com a API do Google Sheets e implementar as etapas de extração, transformação e armazenamento no Google Drive.
 
 2. **Configuração do Google Data Studio:**
    - Acesse o Google Data Studio e crie um novo relatório.
@@ -62,7 +64,7 @@ O objetivo deste projeto é criar um fluxo automatizado para processar, transfor
 
 ## Resultados
 
-- Dados transformados armazenados no DuckDB.
+- Dados transformados armazenados em arquivos Parquet no Google Drive.
 - Visualizações interativas criadas no Google Data Studio.
 
 ## Recursos Adicionais
