@@ -1,6 +1,6 @@
 # Sheets2DuckDB
 
-# Pipeline de Processamento de Dados do Google Sheets para DuckDB com Google Colab e Visualizações no Google Data Studio
+## Google Sheets para DuckDB com Google Colab e Visualizações no Google Data Studio
 
 Este projeto demonstra um pipeline de processamento de dados que extrai informações de uma planilha do Google Sheets, utiliza o Google Colab para ingerir, transformar os dados com as bibliotecas gspread, pandas e pyduckdb, converte os dados em arquivos Parquet e armazena-os no Google Drive. Em seguida, esses dados são lidos pelo DuckDB para análises e, por fim, são criadas visualizações interativas no Google Data Studio. Além disso, o pipeline é automatizado com o Google Apps Script para acionar o processamento diário.
 
