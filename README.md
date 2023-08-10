@@ -8,6 +8,8 @@ Este projeto demonstra um pipeline de processamento de dados que extrai informa�
 
 O objetivo deste projeto é criar um fluxo automatizado para processar, transformar, armazenar e analisar dados de uma planilha do Google Sheets, utilizando ferramentas do ecossistema Google e compartilhando os resultados por meio de visualizações interativas.
 
+![Diagrama do Pipeline](images/DiagramaSheets2DuckDB.png)
+
 ## Fluxo do Pipeline
 
 1. **Extração de Dados do Google Sheets:**
