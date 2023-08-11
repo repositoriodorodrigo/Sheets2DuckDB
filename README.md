@@ -79,7 +79,3 @@ O objetivo deste projeto é criar um fluxo automatizado para processar, transfor
 - [Documentação do DuckDB](https://duckdb.org/docs)
 - [Google Looker Studio](https://lookerstudio.google.com/)
 - [Google Apps Script](https://developers.google.com/apps-script)
-
-## Contribuição
-
-Contribuições são bem-vindas! Se você encontrar problemas ou quiser melhorar este pipeline, sinta-se à vontade para enviar um pull request.
