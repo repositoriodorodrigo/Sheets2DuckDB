@@ -37,18 +37,7 @@ O objetivo deste projeto é criar um fluxo automatizado para processar, transfor
 
 ## Configuração e Uso
 
-1. Instale as dependências necessárias no ambiente do Google Colab:
-   ```bash
-   # Instale a biblioteca gspread
-   !pip install gspread
-   
-   # Instale a biblioteca pandas
-   !pip install pandas
-   
-   # Instale a biblioteca pyduckdb
-   !pip install pyduckdb
-
-1. **Execução do Notebook do Google Colab (`data_processing_pipeline.ipynb`):**
+1. **Execução do Notebook do Google Colab (`Sheets2DuckDB.ipynb`):**
    - Siga as instruções no notebook para autenticar-se com a API do Google Sheets e implementar as etapas de extração, transformação e armazenamento no Google Drive.
 
 2. **Configuração do Google Looker Studio:**
