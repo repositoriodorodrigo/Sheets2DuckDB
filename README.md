@@ -10,7 +10,7 @@ O objetivo deste projeto é criar um fluxo automatizado para processar, transfor
 
 ## Diagrama do Pipeline
 
-![Diagrama do Pipeline](images/DiagramaSheets2DuckDB.png)
+![Diagrama do Pipeline](images/Sheets2DuckDB.drawio.png)
 
 ## Fluxo do Pipeline
 
