@@ -10,7 +10,7 @@ O objetivo deste projeto é criar um fluxo automatizado para processar, transfor
 
 ## Diagrama do Pipeline
 
-![Diagrama do Pipeline](docs/img/Sheets2DuckDB.drawio.png)
+![Diagrama do Pipeline](doc/img/diagram.png)
 
 ## Fluxo do Pipeline
 
@@ -62,9 +62,9 @@ O objetivo deste projeto é criar um fluxo automatizado para processar, transfor
 
 ## Estrutura do Projeto
 
-- `notebooks/`: Contém o notebook do Google Colab (`data_processing_pipeline.ipynb`) com o código de extração, transformação e armazenamento.
+- `notebook/`: Contém o notebook do Google Colab (`data_processing_pipeline.ipynb`) com o código de extração, transformação e armazenamento.
 - `data/`: Armazena arquivos CSV de exemplo ou outros formatos (se necessário).
-- `docs/`: Documentação do projeto, capturas de tela e outros recursos.
+- `doc/`: Documentação do projeto, capturas de tela e outros recursos.
 
 ## Resultados
 
