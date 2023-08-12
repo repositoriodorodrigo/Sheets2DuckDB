@@ -62,7 +62,7 @@ O objetivo deste projeto é criar um fluxo automatizado para processar, transfor
 
 ## Recursos Adicionais
 
-- [Documentação do Google Sheets API](https://developers.google.com/sheets/api)
+- [Documentação do Google Sheets API]([https://developers.google.com/sheets/api](https://developers.google.com/sheets/api/quickstart/python?hl=pt-br))
 - [Documentação do gspread](https://gspread.readthedocs.io/en/latest/)
 - [Documentação do pandas](https://pandas.pydata.org/docs/)
 - [Documentação do DuckDB](https://duckdb.org/docs)
