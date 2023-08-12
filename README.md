@@ -52,7 +52,6 @@ O objetivo deste projeto é criar um fluxo automatizado para processar, transfor
 ## Estrutura do Projeto
 
 - `notebook/`: Contém o notebook do Google Colab (`data_processing_pipeline.ipynb`) com o código de extração, transformação e armazenamento.
-- `data/`: Armazena arquivos CSV de exemplo ou outros formatos (se necessário).
 - `doc/`: Documentação do projeto, capturas de tela e outros recursos.
 
 ## Resultados
