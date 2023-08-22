@@ -45,5 +45,5 @@ O objetivo deste projeto é demonstrar um fluxo para processar, transformar e ar
 ## Recursos Adicionais
 
 - [Documentação do gspread](https://gspread.readthedocs.io/en/latest/)
-- [Documentação do pandas](https://pandas.pydata.org/docs/)
+- [Documentação do pandas](https://pandas.pydata.org/docs/reference/index.html#api)
 - [Documentação do DuckDB](https://duckdb.org/docs)
