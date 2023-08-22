@@ -1,6 +1,6 @@
 # Sheets2DuckDB
 
-## Google Sheets, DataFrame com Pandas, arquivo Parquet e tabela no DuckDB com Google Colab
+## Google Sheets, DataFrame e arquivo Parquet com Pandas, e tabela no DuckDB no Google Colab
 
 Este projeto demonstra um pipeline de que extrai informações de uma planilha do Google Sheets utilizando a biblioteca gspread, transforma e converte os dados em arquivo Parquet com pandas, armazena-o no Google Drive, cria um banco de dados DuckDB e uma tabela a partir do arquivo Parquet com duckdb.
 
